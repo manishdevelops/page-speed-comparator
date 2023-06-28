@@ -1,0 +1,54 @@
+.url-form-component {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.url-form-component h2 {
+  margin-bottom: 10px;
+}
+
+.url-form-component form {
+  display: flex;
+  flex-direction: column;
+}
+
+.url-form-component label {
+  margin-bottom: 10px;
+}
+
+.url-form-component input[type="text"] {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.url-form-component button {
+  padding: 5px 10px;
+  /* margin-top: 10px; */
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.url-form-component button:hover {
+  background-color: #555;
+}
+
+@media (min-width: 768px) {
+  .url-form-component form {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .url-form-component label {
+    margin-right: 10px;
+  }
+
+  .url-form-component input[type="text"] {
+    width: 300px;
+    margin-bottom: 0;
+  }
+}

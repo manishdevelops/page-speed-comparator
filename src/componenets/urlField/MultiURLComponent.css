@@ -1,0 +1,55 @@
+.multi-url-component {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .multi-url-component h2 {
+    margin-bottom: 10px;
+  }
+  
+  .multi-url-component form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .multi-url-component label {
+    margin-bottom: 10px;
+  }
+  
+  .multi-url-component textarea {
+    padding: 5px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  
+  .multi-url-component button {
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .multi-url-component button:hover {
+    background-color: #555;
+  }
+  
+  @media (min-width: 768px) {
+    .multi-url-component form {
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    .multi-url-component label {
+      margin-right: 10px;
+    }
+  
+    .multi-url-component textarea {
+      width: 300px;
+      margin-bottom: 0;
+    }
+  }

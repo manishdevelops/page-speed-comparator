@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: clamp(2rem, 1.034rem + 5.517vw, 6rem);
+    background-color: #1f2937;
+    color: rgba(156,163,175);
+}
+
+
+h1 {
+    font-size: clamp(0.8rem, 0.607rem + 1.103vw, 1.6rem);
+}
+
+h2 {
+    font-size: clamp(1.6rem, 0.407rem + 5.103vw, 5rem);
+    margin-block: 1rem;
+    color: rgba(255,255,255);
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: clamp(0.8rem, 0.631rem + 0.966vw, 1.5rem);
+    max-width: 800px;
+    
+}
