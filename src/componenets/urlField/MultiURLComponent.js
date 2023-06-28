@@ -18,14 +18,18 @@ const MultiURLComponent = () => {
 	return (
 		<div className='multi-url-component'>
 			<form onSubmit={handleSubmit}>
-				<label htmlFor='urlInput'>Enter URLs:</label>
+				<label className='input-label' htmlFor='urlInput'>
+					Enter URLs:
+				</label>
 				<textarea
 					id='urlInput'
 					rows={4}
 					value={urls.join('\n')}
 					onChange={handleInputChange}
 				/>
-				<button type='submit'>Submit</button>
+				<button className='submit-button' type='submit'>
+					Submit
+				</button>
 			</form>
 		</div>
 	);

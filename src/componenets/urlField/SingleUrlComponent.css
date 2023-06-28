@@ -27,9 +27,17 @@
 }
 
 .url-form-component input[type="text"] {
+  all: unset;
   padding: 5px;
+  background-color: white;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
+
+.input-label {
+  color: #fff;
+}
+
 
 .url-form-component button {
   padding: 5px 10px;
@@ -37,7 +45,7 @@
   background-color: #333;
   color: #fff;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
 }
 

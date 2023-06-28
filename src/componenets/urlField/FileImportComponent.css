@@ -9,7 +9,11 @@
   .file-import-component h2 {
     margin-bottom: 10px;
   }
-  
+
+  .input-label {
+    color: #fff;
+  }
+
   .file-import-component form {
     display: flex;
     flex-direction: column;
@@ -21,6 +25,7 @@
   
   .file-import-component input[type="file"] {
     margin-bottom: 10px;
+    border-radius: 3px;
   }
   
   .file-import-component button {
@@ -29,7 +34,7 @@
     background-color: #333;
     color: #fff;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
   }
   

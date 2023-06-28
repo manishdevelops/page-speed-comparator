@@ -18,14 +18,18 @@ const FileImportComponent = () => {
 	return (
 		<div className='file-import-component'>
 			<form onSubmit={handleSubmit}>
-				<label htmlFor='fileInput'>Select Files:</label>
+				<label className='input-label' htmlFor='fileInput'>
+					Select Files:
+				</label>
 				<input
 					id='fileInput'
 					type='file'
 					multiple
 					onChange={handleFileChange}
 				/>
-				<button type='submit'>Submit</button>
+				<button className='submit-button' type='submit'>
+					Submit
+				</button>
 			</form>
 		</div>
 	);

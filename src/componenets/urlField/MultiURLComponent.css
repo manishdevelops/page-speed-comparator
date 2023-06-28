@@ -10,6 +10,11 @@
   .multi-url-component h2 {
     margin-bottom: 10px;
   }
+
+  .input-label {
+    color: #fff;
+  }
+  
   
   .multi-url-component form {
     display: flex;
@@ -24,6 +29,7 @@
     padding: 5px;
     margin-bottom: 10px;
     resize: vertical;
+    border-radius: 10px;
   }
   
   .multi-url-component button {
@@ -32,7 +38,7 @@
     background-color: #333;
     color: #fff;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
     cursor: pointer;
   }
   

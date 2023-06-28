@@ -17,14 +17,19 @@ const SingleURLComponent = () => {
 	return (
 		<div className='url-form-component'>
 			<form onSubmit={handleSubmit}>
-				<label htmlFor='urlInput'>Enter URL:</label>
+				<label className='input-label' htmlFor='urlInput'>
+					Enter URL:
+				</label>
 				<input
 					id='urlInput'
 					type='text'
 					value={url}
 					onChange={handleInputChange}
+					placeholder='Enter a URL'
 				/>
-				<button type='submit'>Submit</button>
+				<button className='submit-button' type='submit'>
+					Submit
+				</button>
 			</form>
 		</div>
 	);
