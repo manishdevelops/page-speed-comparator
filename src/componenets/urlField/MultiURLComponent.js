@@ -17,7 +17,6 @@ const MultiURLComponent = () => {
 
 	return (
 		<div className='multi-url-component'>
-			<h2>Multi URL Component</h2>
 			<form onSubmit={handleSubmit}>
 				<label htmlFor='urlInput'>Enter URLs:</label>
 				<textarea

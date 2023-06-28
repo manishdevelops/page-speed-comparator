@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import MultiURLComponent from './MultiURLComponent';
 import FileImportComponent from './FileImportComponent';
 import SingleURLComponent from './SingleUrlComponent';
+import './URLFormComponent.css';
 
 const URLFormComponent = () => {
 	const [url, setUrl] = useState({
@@ -12,7 +13,7 @@ const URLFormComponent = () => {
 
 	return (
 		<section className='form'>
-			<div>
+			<div className='button-container'>
 				<button
 					onClick={() => {
 						setUrl({

@@ -16,7 +16,6 @@ const SingleURLComponent = () => {
 
 	return (
 		<div className='url-form-component'>
-			<h2>URL Form Component</h2>
 			<form onSubmit={handleSubmit}>
 				<label htmlFor='urlInput'>Enter URL:</label>
 				<input

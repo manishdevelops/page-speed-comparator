@@ -17,7 +17,6 @@ const FileImportComponent = () => {
 
 	return (
 		<div className='file-import-component'>
-			<h2>File Import Component</h2>
 			<form onSubmit={handleSubmit}>
 				<label htmlFor='fileInput'>Select Files:</label>
 				<input
