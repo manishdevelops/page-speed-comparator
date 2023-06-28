@@ -1,11 +1,13 @@
 import Header from './componenets/header/header';
-import URLFormComponent from './componenets/urlField/URLFormComponent';
+import Body from './componenets/body/body.component';
+import Footer from './componenets/footer/footer';
 
 function App() {
 	return (
 		<>
 			<Header />
-			<URLFormComponent />
+			<Body />
+			<Footer />
 		</>
 	);
 }
